@@ -19,3 +19,16 @@ run it in the terminal:
 
   pip install pandas matplotlib seaborn
   ensure also you have python
+
+  pip install --default-timeout=100 pandas matplotlib seaborn --index-url=https://pypi.org/simple/
+
+pip install --default-timeout=100 pandas matplotlib seaborn
+
+pip --proxy=http://proxyaddress:port install pandas matplotlib seaborn
+
+pip install /path/to/downloaded/package.whl
+
+python -m venv myenv
+source myenv/bin/activate  # On Windows use: myenv\Scripts\activate
+
+
